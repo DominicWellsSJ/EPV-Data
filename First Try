@@ -15,3 +15,7 @@ import utils
 import os
 %load_ext autoreload
 %autoreload 2
+
+url = "https://https://www.whoscored.com/Matches/1821049/Live/England-Premier-League-2024-2025-Manchester-United-Fulham"
+match_data = main.getMatchData(driver, url, close_window=True)
+
