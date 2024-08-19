@@ -1,0 +1,17 @@
+git clone "https://github.com/Ali-Hasan-Khan/Scrape-Whoscored-Event-Data.git"
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+import main
+import visuals
+import seaborn as sns
+import requests
+import utils
+import os
+%load_ext autoreload
+%autoreload 2
